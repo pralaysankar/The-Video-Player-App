@@ -179,6 +179,7 @@ $(document).ready(function() {
     $("#video-description").html("There is no other way but to commit wholeheartedly to a relationship with a croissant. We have all found ourselves at the mercy of its allure. Here, in another epic film by the uber talented Nathan Rodger, our Erin divulges her personal romance with The Croissant.");
 
     $(".playlist-card").click(function(){
+       window.scrollTo(0,0);
        $(".playlist-card").removeClass("active-card");
        $(this).addClass("active-card");
        var cardClickedId = parseInt($(this).attr("id").replace("card",""));
